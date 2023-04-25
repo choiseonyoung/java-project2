@@ -1,4 +1,4 @@
-package com.example.javaproject2.weak2;
+package com.example.javaproject2.weak2.day1;
 
 public class FloatAndDoubles {
     public static void main(String[] args) {
