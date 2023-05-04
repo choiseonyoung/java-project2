@@ -2,12 +2,13 @@ package com.example.javaproject2.codeup;
 
 import java.util.Scanner;
 
-public class _1023 {
+public class _1024 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        String[] arr = str.split("[.]");
 
-        System.out.printf("%s\n%s", arr[0], arr[1]);
+        for(int i=0; i<str.length(); i++) {
+            System.out.printf("'%c'\n", str.charAt(i));
+        }
     }
 }
